@@ -14,7 +14,6 @@ public:
             else
                 i++;
         }
-        arr.resize(n);
-        
+        arr.resize(n);    
     }
 };
