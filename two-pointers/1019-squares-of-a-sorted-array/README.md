@@ -5,8 +5,8 @@
 **Topics:** Array, Two Pointers, Sorting
 
 ## Stats
-- Runtime: 112 ms (beats 6.07%)
-- Memory: 25.7 MB (beats 100.00%)
+- Runtime: 156 ms (beats 6.07%)
+- Memory: 26 MB (beats 100.00%)
 
 ## Approach
 
