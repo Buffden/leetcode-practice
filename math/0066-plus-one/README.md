@@ -5,8 +5,8 @@
 **Topics:** Array, Math
 
 ## Stats
-- Runtime: 0 ms (beats 100.00%)
-- Memory: 9 MB (beats 100.00%)
+- Runtime: 4 ms (beats 0.44%)
+- Memory: 9.1 MB (beats 100.00%)
 
 ## Approach
 
