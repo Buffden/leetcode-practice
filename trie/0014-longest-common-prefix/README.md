@@ -5,7 +5,7 @@
 **Topics:** Array, String, Trie
 
 ## Stats
-- Runtime: 4 ms (beats 6.25%)
+- Runtime: 8 ms (beats 4.46%)
 - Memory: 9.5 MB (beats 100.00%)
 
 ## Approach

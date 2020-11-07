@@ -1,10 +1,12 @@
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
-        int min =1000;
+        if(strs.size() < 1)
+            return "";
+        int min =INT_MAX;
         int count=0;
         string min_string;  
-        for(int i=0;i<strs.size();i++)
+        for(int i=0;i<strs.size();i++) //exrating the min string from the vector
         {
             int len=strs[i].size();
             if(len<min)
