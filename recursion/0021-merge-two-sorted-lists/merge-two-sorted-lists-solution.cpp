@@ -28,7 +28,8 @@ public:
                 S=l2;
                 l2=l2->next;
             }
-            newhead=S;
+            newhead=S;      ///important thing
+            
         }
         while(l1&&l2)
         {
