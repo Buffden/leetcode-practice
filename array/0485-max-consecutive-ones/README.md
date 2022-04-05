@@ -5,7 +5,7 @@
 **Topics:** Array
 
 ## Stats
-- Runtime: 96 ms (beats 2.87%)
+- Runtime: 40 ms (beats 2.87%)
 - Memory: 36.3 MB (beats 100.00%)
 
 ## Approach
