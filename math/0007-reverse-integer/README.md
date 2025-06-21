@@ -5,8 +5,8 @@
 **Topics:** Math
 
 ## Stats
-- Runtime: 0 ms (beats 100.00%)
-- Memory: 6.5 MB (beats 100.00%)
+- Runtime: 1 ms (beats 99.98%)
+- Memory: 41.5 MB (beats 99.92%)
 
 ## Approach
 
