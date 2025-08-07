@@ -8,8 +8,7 @@ class Solution {
             } else {
                 maxProfit = Math.max(maxProfit, price - minPrice);
             }
-        }
-        
+        }                                                            
         return maxProfit;
     }
 }
