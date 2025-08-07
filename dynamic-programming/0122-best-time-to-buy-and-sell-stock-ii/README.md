@@ -5,8 +5,8 @@
 **Topics:** Array, Dynamic Programming, Greedy
 
 ## Stats
-- Runtime: 8 ms (beats 35.58%)
-- Memory: 13.3 MB (beats 100.00%)
+- Runtime: 0 ms (beats 100.00%)
+- Memory: 45.7 MB (beats 99.29%)
 
 ## Approach
 
