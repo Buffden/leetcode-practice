@@ -5,8 +5,8 @@
 **Topics:** Array, Hash Table, Math, Design, Randomized
 
 ## Stats
-- Runtime: 27 ms (beats 55.07%)
-- Memory: 92.7 MB (beats 100.00%)
+- Runtime: 26 ms (beats 77.92%)
+- Memory: 100.4 MB (beats 64.10%)
 
 ## Approach
 
