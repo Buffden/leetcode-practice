@@ -5,8 +5,8 @@
 **Topics:** Hash Table, String, Sliding Window
 
 ## Stats
-- Runtime: 7 ms (beats 36.99%)
-- Memory: 44.7 MB (beats 92.04%)
+- Runtime: 6 ms (beats 70.15%)
+- Memory: 46.5 MB (beats 38.26%)
 
 ## Approach
 
