@@ -1,23 +1,20 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
-        // int jockey = 1;
-        // for (int i = 1; i < nums.length; i++) {
-        //     if (nums[i] != nums[i - 1]) {
-        //         nums[jockey] = nums[i];
-        //         jockey++;
-        //     } else {
-        //         // hold on to jockey variable untill the new value appears
-        //     }
-        // }
-        int follower = 0;
-        int seeker = 1;
+        if (nums.length == 1) return 1;
 
-        while (seeker < nums.length) {
-            if (nums[follower] != nums[seeker]) {
-                nums[++follower] = nums[seeker];
+        int slower = 0;
+        int faster = 1;
+        int right = nums.length - 1;
+
+        while (faster < nums.length) {
+            if (nums[slower] != nums[faster]) {
+                nums[slower + 1] = nums[faster];
+                slower++;
+            } else {
+                faster++;
             }
-            seeker++;
         }
-        return follower + 1;
+        return slower + 1;
     }
+        
 }

@@ -6,7 +6,7 @@
 
 ## Stats
 - Runtime: 1 ms (beats 78.47%)
-- Memory: 44.8 MB (beats 99.98%)
+- Memory: 46.9 MB (beats 24.01%)
 
 ## Approach
 
