@@ -5,8 +5,8 @@
 **Topics:** Array, Hash Table, Two Pointers
 
 ## Stats
-- Runtime: 0 ms (beats 100.00%)
-- Memory: 42.5 MB (beats 93.08%)
+- Runtime: 20 ms (beats 41.52%)
+- Memory: 43.1 MB (beats 24.42%)
 
 ## Approach
 
