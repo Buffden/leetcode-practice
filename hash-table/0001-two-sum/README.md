@@ -5,8 +5,8 @@
 **Topics:** Array, Hash Table
 
 ## Stats
-- Runtime: 748 ms (beats 5.06%)
-- Memory: 9.5 MB (beats 99.99%)
+- Runtime: 3 ms (beats 57.12%)
+- Memory: 47.3 MB (beats 22.97%)
 
 ## Approach
 
