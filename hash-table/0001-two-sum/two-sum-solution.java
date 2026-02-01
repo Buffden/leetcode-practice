@@ -1,18 +1,19 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> myFreq = new HashMap<Integer, Integer>();
+        HashSet<Integer> mySet = new HashSet<Integer>();
         int[] ans = new int[2];
-        HashMap<Integer, Integer> pair = new HashMap<Integer, Integer>();
-        HashSet<Integer> seen = new HashSet<Integer>();
-        
+
         for (int i = 0; i < nums.length; i++) {
-            int neededNumber = target - nums[i];
-            if (seen.contains(neededNumber)) {
-                ans[0] = pair.get(neededNumber);
-                ans[1] = i;
+            if (mySet.contains(nums[i]) == false) {
+                mySet.add(nums[i]);
+                myFreq.put(nums[i], i);
+            }
+            int difference = target - nums[i];
+            if (mySet.contains(difference) && myFreq.get(difference) != i) {
+                ans[0] = i;
+                ans[1] = myFreq.get(difference);
                 return ans;
-            } else {
-                pair.put(nums[i], i);
-                seen.add(nums[i]);
             }
         }
         return ans;
