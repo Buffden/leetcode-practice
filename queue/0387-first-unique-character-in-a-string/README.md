@@ -5,8 +5,8 @@
 **Topics:** Hash Table, String, Queue, Counting
 
 ## Stats
-- Runtime: 84 ms (beats 5.59%)
-- Memory: 11 MB (beats 100.00%)
+- Runtime: 6 ms (beats 84.83%)
+- Memory: 47.2 MB (beats 13.10%)
 
 ## Approach
 
