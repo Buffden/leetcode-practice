@@ -7,10 +7,12 @@ class Solution {
 
         for (int x : nums) {
             prefix += x;
-            if (map.containsKey(prefix - k)) {
+            // it checks if a valid subarray exists
+            if (map.containsKey(prefix - k)) { // required difference present in map -> increase count
                 count += map.get(prefix - k);
             }
-            map.put(prefix, map.getOrDefault(prefix, 0) + 1);
+            // then update the map
+            map.put(prefix, map.getOrDefault(prefix, 0) + 1); // core bookkeeping step of the algorithm.
         }
         return count;
     }
