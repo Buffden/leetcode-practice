@@ -5,8 +5,8 @@
 **Topics:** Array, Divide and Conquer, Dynamic Programming
 
 ## Stats
-- Runtime: 12 ms (beats 4.57%)
-- Memory: 13.5 MB (beats 99.98%)
+- Runtime: 1 ms (beats 99.96%)
+- Memory: 77.1 MB (beats 65.51%)
 
 ## Approach
 
