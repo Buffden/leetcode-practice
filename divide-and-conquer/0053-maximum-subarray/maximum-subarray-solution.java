@@ -8,16 +8,16 @@ class Solution {
         // sum is largest when the difference is the largest that means we need to maintain something min and something max ??
 
         // max subarray sum = current prefix - smallest prefix seen before
-        int prefix = 0;
+        int currentPrefix = 0;
         int minPrefix = 0;
         int maxSum = Integer.MIN_VALUE;
 
-        for (int num : nums) {
-            prefix += num;
-            maxSum = Math.max(maxSum, prefix - minPrefix);
-            minPrefix = Math.min(minPrefix, prefix);
-        }
+        for (int num: nums) {
+            currentPrefix += num;
 
+            maxSum = Math.max(maxSum, currentPrefix - minPrefix);
+            minPrefix = Math.min(minPrefix, currentPrefix);
+        }
         return maxSum;
     }
 }
