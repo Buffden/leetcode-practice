@@ -5,8 +5,8 @@
 **Topics:** Array, Binary Search
 
 ## Stats
-- Runtime: 4 ms (beats 0.70%)
-- Memory: 11.4 MB (beats 100.00%)
+- Runtime: 0 ms (beats 100.00%)
+- Memory: 43.8 MB (beats 46.36%)
 
 ## Approach
 
