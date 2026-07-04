@@ -1,0 +1,20 @@
+name: Sync LeetCode Solutions
+
+on:
+  schedule:
+    - cron: '0 0,6,12,18 * * *'  # runs every 6 hours (midnight, 6am, noon, 6pm UTC)
+  workflow_dispatch:       # allows manual trigger from GitHub UI
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync LeetCode submissions
+        uses: Buffden/leetcode-sync@feature/customize-commit-pattern
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+          leetcode-session: ${{ secrets.LEETCODE_SESSION }}
+          destination-folder: ''
+          verbose: true
+          commit-header: '[LeetCode]'
