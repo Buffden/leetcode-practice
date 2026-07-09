@@ -5,8 +5,8 @@
 **Topics:** Array, Sorting
 
 ## Stats
-- Runtime: 40 ms (beats 5.00%)
-- Memory: 14.4 MB (beats 100.00%)
+- Runtime: 8 ms (beats 91.69%)
+- Memory: 49.5 MB (beats 6.06%)
 
 ## Approach
 
