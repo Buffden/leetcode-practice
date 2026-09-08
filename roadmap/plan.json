@@ -1,0 +1,2410 @@
+{
+  "version": 1,
+  "startDate": "2026-09-08",
+  "targetWeeks": 8,
+  "dailyHours": 3,
+  "language": "Java",
+  "goal": "Interview conversion for SDE I / early-career product-company interviews; retention and pattern retrieval over raw problem count.",
+  "targetCompanies": [
+    "Amazon/AWS",
+    "Google",
+    "Meta",
+    "Apple"
+  ],
+  "curriculumStrategy": "Curated union/overlap of NeetCode 150, Blind 75, LeetCode Top Interview 150, then company-targeted reinforcement. Lists are not completed independently.",
+  "sundayRule": "No mandatory new problems. Spaced re-solving, error-log review, and one timed mock.",
+  "errorCodes": [
+    "PR",
+    "BF",
+    "OP",
+    "IMP",
+    "BUG",
+    "EDGE",
+    "TC",
+    "RET",
+    "COM",
+    "TIME"
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "focus": "Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum",
+      "companyFocus": []
+    },
+    {
+      "week": 2,
+      "focus": "Binary Search, Linked Lists, Stack, Monotonic Stack",
+      "companyFocus": []
+    },
+    {
+      "week": 3,
+      "focus": "Trees, BST, DFS, BFS, Recursive Invariants",
+      "companyFocus": []
+    },
+    {
+      "week": 4,
+      "focus": "Heap, Intervals, Greedy, Trie",
+      "companyFocus": []
+    },
+    {
+      "week": 5,
+      "focus": "Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST",
+      "companyFocus": []
+    },
+    {
+      "week": 6,
+      "focus": "Backtracking, 1D DP, 2D DP",
+      "companyFocus": []
+    },
+    {
+      "week": 7,
+      "focus": "Mixed Interview Set + High-Yield Design/Data-Structure Problems",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ]
+    },
+    {
+      "week": 8,
+      "focus": "Timed Mixed Problems, Selected Hards, Weak-Topic Repair",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "slug": "two-sum",
+      "title": "Two Sum",
+      "url": "https://leetcode.com/problems/two-sum/",
+      "week": 1,
+      "day": 1,
+      "focus": "Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "valid-anagram",
+      "title": "Valid Anagram",
+      "url": "https://leetcode.com/problems/valid-anagram/",
+      "week": 1,
+      "day": 1,
+      "focus": "Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "group-anagrams",
+      "title": "Group Anagrams",
+      "url": "https://leetcode.com/problems/group-anagrams/",
+      "week": 1,
+      "day": 2,
+      "focus": "Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "product-of-array-except-self",
+      "title": "Product of Array Except Self",
+      "url": "https://leetcode.com/problems/product-of-array-except-self/",
+      "week": 1,
+      "day": 2,
+      "focus": "Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "valid-palindrome",
+      "title": "Valid Palindrome",
+      "url": "https://leetcode.com/problems/valid-palindrome/",
+      "week": 1,
+      "day": 3,
+      "focus": "Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "two-sum-ii-input-array-is-sorted",
+      "title": "Two Sum II - Input Array Is Sorted",
+      "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+      "week": 1,
+      "day": 3,
+      "focus": "Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "3sum",
+      "title": "3Sum",
+      "url": "https://leetcode.com/problems/3sum/",
+      "week": 1,
+      "day": 4,
+      "focus": "Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "container-with-most-water",
+      "title": "Container With Most Water",
+      "url": "https://leetcode.com/problems/container-with-most-water/",
+      "week": 1,
+      "day": 4,
+      "focus": "Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "best-time-to-buy-and-sell-stock",
+      "title": "Best Time to Buy and Sell Stock",
+      "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      "week": 1,
+      "day": 5,
+      "focus": "Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "longest-substring-without-repeating-characters",
+      "title": "Longest Substring Without Repeating Characters",
+      "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "week": 1,
+      "day": 5,
+      "focus": "Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "longest-repeating-character-replacement",
+      "title": "Longest Repeating Character Replacement",
+      "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+      "week": 1,
+      "day": 6,
+      "focus": "Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "subarray-sum-equals-k",
+      "title": "Subarray Sum Equals K",
+      "url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+      "week": 1,
+      "day": 6,
+      "focus": "Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "binary-search",
+      "title": "Binary Search",
+      "url": "https://leetcode.com/problems/binary-search/",
+      "week": 2,
+      "day": 1,
+      "focus": "Binary Search, Linked Lists, Stack, Monotonic Stack",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "search-a-2d-matrix",
+      "title": "Search a 2D Matrix",
+      "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+      "week": 2,
+      "day": 1,
+      "focus": "Binary Search, Linked Lists, Stack, Monotonic Stack",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "koko-eating-bananas",
+      "title": "Koko Eating Bananas",
+      "url": "https://leetcode.com/problems/koko-eating-bananas/",
+      "week": 2,
+      "day": 2,
+      "focus": "Binary Search, Linked Lists, Stack, Monotonic Stack",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "find-minimum-in-rotated-sorted-array",
+      "title": "Find Minimum in Rotated Sorted Array",
+      "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+      "week": 2,
+      "day": 2,
+      "focus": "Binary Search, Linked Lists, Stack, Monotonic Stack",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "search-in-rotated-sorted-array",
+      "title": "Search in Rotated Sorted Array",
+      "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+      "week": 2,
+      "day": 3,
+      "focus": "Binary Search, Linked Lists, Stack, Monotonic Stack",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "reverse-linked-list",
+      "title": "Reverse Linked List",
+      "url": "https://leetcode.com/problems/reverse-linked-list/",
+      "week": 2,
+      "day": 3,
+      "focus": "Binary Search, Linked Lists, Stack, Monotonic Stack",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "merge-two-sorted-lists",
+      "title": "Merge Two Sorted Lists",
+      "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+      "week": 2,
+      "day": 4,
+      "focus": "Binary Search, Linked Lists, Stack, Monotonic Stack",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "linked-list-cycle",
+      "title": "Linked List Cycle",
+      "url": "https://leetcode.com/problems/linked-list-cycle/",
+      "week": 2,
+      "day": 4,
+      "focus": "Binary Search, Linked Lists, Stack, Monotonic Stack",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "reorder-list",
+      "title": "Reorder List",
+      "url": "https://leetcode.com/problems/reorder-list/",
+      "week": 2,
+      "day": 5,
+      "focus": "Binary Search, Linked Lists, Stack, Monotonic Stack",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "valid-parentheses",
+      "title": "Valid Parentheses",
+      "url": "https://leetcode.com/problems/valid-parentheses/",
+      "week": 2,
+      "day": 5,
+      "focus": "Binary Search, Linked Lists, Stack, Monotonic Stack",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "min-stack",
+      "title": "Min Stack",
+      "url": "https://leetcode.com/problems/min-stack/",
+      "week": 2,
+      "day": 6,
+      "focus": "Binary Search, Linked Lists, Stack, Monotonic Stack",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "daily-temperatures",
+      "title": "Daily Temperatures",
+      "url": "https://leetcode.com/problems/daily-temperatures/",
+      "week": 2,
+      "day": 6,
+      "focus": "Binary Search, Linked Lists, Stack, Monotonic Stack",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "invert-binary-tree",
+      "title": "Invert Binary Tree",
+      "url": "https://leetcode.com/problems/invert-binary-tree/",
+      "week": 3,
+      "day": 1,
+      "focus": "Trees, BST, DFS, BFS, Recursive Invariants",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "maximum-depth-of-binary-tree",
+      "title": "Maximum Depth of Binary Tree",
+      "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+      "week": 3,
+      "day": 1,
+      "focus": "Trees, BST, DFS, BFS, Recursive Invariants",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "diameter-of-binary-tree",
+      "title": "Diameter of Binary Tree",
+      "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+      "week": 3,
+      "day": 2,
+      "focus": "Trees, BST, DFS, BFS, Recursive Invariants",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "balanced-binary-tree",
+      "title": "Balanced Binary Tree",
+      "url": "https://leetcode.com/problems/balanced-binary-tree/",
+      "week": 3,
+      "day": 2,
+      "focus": "Trees, BST, DFS, BFS, Recursive Invariants",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "same-tree",
+      "title": "Same Tree",
+      "url": "https://leetcode.com/problems/same-tree/",
+      "week": 3,
+      "day": 3,
+      "focus": "Trees, BST, DFS, BFS, Recursive Invariants",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "subtree-of-another-tree",
+      "title": "Subtree of Another Tree",
+      "url": "https://leetcode.com/problems/subtree-of-another-tree/",
+      "week": 3,
+      "day": 3,
+      "focus": "Trees, BST, DFS, BFS, Recursive Invariants",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+      "week": 3,
+      "day": 4,
+      "focus": "Trees, BST, DFS, BFS, Recursive Invariants",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "binary-tree-level-order-traversal",
+      "title": "Binary Tree Level Order Traversal",
+      "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+      "week": 3,
+      "day": 4,
+      "focus": "Trees, BST, DFS, BFS, Recursive Invariants",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "binary-tree-right-side-view",
+      "title": "Binary Tree Right Side View",
+      "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+      "week": 3,
+      "day": 5,
+      "focus": "Trees, BST, DFS, BFS, Recursive Invariants",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "validate-binary-search-tree",
+      "title": "Validate Binary Search Tree",
+      "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+      "week": 3,
+      "day": 5,
+      "focus": "Trees, BST, DFS, BFS, Recursive Invariants",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "kth-smallest-element-in-a-bst",
+      "title": "Kth Smallest Element in a BST",
+      "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+      "week": 3,
+      "day": 6,
+      "focus": "Trees, BST, DFS, BFS, Recursive Invariants",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+      "week": 3,
+      "day": 6,
+      "focus": "Trees, BST, DFS, BFS, Recursive Invariants",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "kth-largest-element-in-an-array",
+      "title": "Kth Largest Element in an Array",
+      "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+      "week": 4,
+      "day": 1,
+      "focus": "Heap, Intervals, Greedy, Trie",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "k-closest-points-to-origin",
+      "title": "K Closest Points to Origin",
+      "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+      "week": 4,
+      "day": 1,
+      "focus": "Heap, Intervals, Greedy, Trie",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "task-scheduler",
+      "title": "Task Scheduler",
+      "url": "https://leetcode.com/problems/task-scheduler/",
+      "week": 4,
+      "day": 2,
+      "focus": "Heap, Intervals, Greedy, Trie",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "merge-intervals",
+      "title": "Merge Intervals",
+      "url": "https://leetcode.com/problems/merge-intervals/",
+      "week": 4,
+      "day": 2,
+      "focus": "Heap, Intervals, Greedy, Trie",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "insert-interval",
+      "title": "Insert Interval",
+      "url": "https://leetcode.com/problems/insert-interval/",
+      "week": 4,
+      "day": 3,
+      "focus": "Heap, Intervals, Greedy, Trie",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "non-overlapping-intervals",
+      "title": "Non-overlapping Intervals",
+      "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+      "week": 4,
+      "day": 3,
+      "focus": "Heap, Intervals, Greedy, Trie",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "minimum-number-of-arrows-to-burst-balloons",
+      "title": "Minimum Number of Arrows to Burst Balloons",
+      "url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
+      "week": 4,
+      "day": 4,
+      "focus": "Heap, Intervals, Greedy, Trie",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "jump-game",
+      "title": "Jump Game",
+      "url": "https://leetcode.com/problems/jump-game/",
+      "week": 4,
+      "day": 4,
+      "focus": "Heap, Intervals, Greedy, Trie",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "jump-game-ii",
+      "title": "Jump Game II",
+      "url": "https://leetcode.com/problems/jump-game-ii/",
+      "week": 4,
+      "day": 5,
+      "focus": "Heap, Intervals, Greedy, Trie",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "gas-station",
+      "title": "Gas Station",
+      "url": "https://leetcode.com/problems/gas-station/",
+      "week": 4,
+      "day": 5,
+      "focus": "Heap, Intervals, Greedy, Trie",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "partition-labels",
+      "title": "Partition Labels",
+      "url": "https://leetcode.com/problems/partition-labels/",
+      "week": 4,
+      "day": 6,
+      "focus": "Heap, Intervals, Greedy, Trie",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "implement-trie-prefix-tree",
+      "title": "Implement Trie (Prefix Tree)",
+      "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+      "week": 4,
+      "day": 6,
+      "focus": "Heap, Intervals, Greedy, Trie",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "number-of-islands",
+      "title": "Number of Islands",
+      "url": "https://leetcode.com/problems/number-of-islands/",
+      "week": 5,
+      "day": 1,
+      "focus": "Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "clone-graph",
+      "title": "Clone Graph",
+      "url": "https://leetcode.com/problems/clone-graph/",
+      "week": 5,
+      "day": 1,
+      "focus": "Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "max-area-of-island",
+      "title": "Max Area of Island",
+      "url": "https://leetcode.com/problems/max-area-of-island/",
+      "week": 5,
+      "day": 2,
+      "focus": "Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "pacific-atlantic-water-flow",
+      "title": "Pacific Atlantic Water Flow",
+      "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+      "week": 5,
+      "day": 2,
+      "focus": "Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "surrounded-regions",
+      "title": "Surrounded Regions",
+      "url": "https://leetcode.com/problems/surrounded-regions/",
+      "week": 5,
+      "day": 3,
+      "focus": "Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "rotting-oranges",
+      "title": "Rotting Oranges",
+      "url": "https://leetcode.com/problems/rotting-oranges/",
+      "week": 5,
+      "day": 3,
+      "focus": "Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "course-schedule",
+      "title": "Course Schedule",
+      "url": "https://leetcode.com/problems/course-schedule/",
+      "week": 5,
+      "day": 4,
+      "focus": "Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "course-schedule-ii",
+      "title": "Course Schedule II",
+      "url": "https://leetcode.com/problems/course-schedule-ii/",
+      "week": 5,
+      "day": 4,
+      "focus": "Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "redundant-connection",
+      "title": "Redundant Connection",
+      "url": "https://leetcode.com/problems/redundant-connection/",
+      "week": 5,
+      "day": 5,
+      "focus": "Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "number-of-provinces",
+      "title": "Number of Provinces",
+      "url": "https://leetcode.com/problems/number-of-provinces/",
+      "week": 5,
+      "day": 5,
+      "focus": "Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "network-delay-time",
+      "title": "Network Delay Time",
+      "url": "https://leetcode.com/problems/network-delay-time/",
+      "week": 5,
+      "day": 6,
+      "focus": "Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "min-cost-to-connect-all-points",
+      "title": "Min Cost to Connect All Points",
+      "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+      "week": 5,
+      "day": 6,
+      "focus": "Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "subsets",
+      "title": "Subsets",
+      "url": "https://leetcode.com/problems/subsets/",
+      "week": 6,
+      "day": 1,
+      "focus": "Backtracking, 1D DP, 2D DP",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "combination-sum",
+      "title": "Combination Sum",
+      "url": "https://leetcode.com/problems/combination-sum/",
+      "week": 6,
+      "day": 1,
+      "focus": "Backtracking, 1D DP, 2D DP",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "permutations",
+      "title": "Permutations",
+      "url": "https://leetcode.com/problems/permutations/",
+      "week": 6,
+      "day": 2,
+      "focus": "Backtracking, 1D DP, 2D DP",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "word-search",
+      "title": "Word Search",
+      "url": "https://leetcode.com/problems/word-search/",
+      "week": 6,
+      "day": 2,
+      "focus": "Backtracking, 1D DP, 2D DP",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "palindrome-partitioning",
+      "title": "Palindrome Partitioning",
+      "url": "https://leetcode.com/problems/palindrome-partitioning/",
+      "week": 6,
+      "day": 3,
+      "focus": "Backtracking, 1D DP, 2D DP",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "letter-combinations-of-a-phone-number",
+      "title": "Letter Combinations of a Phone Number",
+      "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+      "week": 6,
+      "day": 3,
+      "focus": "Backtracking, 1D DP, 2D DP",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "climbing-stairs",
+      "title": "Climbing Stairs",
+      "url": "https://leetcode.com/problems/climbing-stairs/",
+      "week": 6,
+      "day": 4,
+      "focus": "Backtracking, 1D DP, 2D DP",
+      "companyFocus": [],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "house-robber",
+      "title": "House Robber",
+      "url": "https://leetcode.com/problems/house-robber/",
+      "week": 6,
+      "day": 4,
+      "focus": "Backtracking, 1D DP, 2D DP",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "house-robber-ii",
+      "title": "House Robber II",
+      "url": "https://leetcode.com/problems/house-robber-ii/",
+      "week": 6,
+      "day": 5,
+      "focus": "Backtracking, 1D DP, 2D DP",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "coin-change",
+      "title": "Coin Change",
+      "url": "https://leetcode.com/problems/coin-change/",
+      "week": 6,
+      "day": 5,
+      "focus": "Backtracking, 1D DP, 2D DP",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "longest-increasing-subsequence",
+      "title": "Longest Increasing Subsequence",
+      "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+      "week": 6,
+      "day": 6,
+      "focus": "Backtracking, 1D DP, 2D DP",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "unique-paths",
+      "title": "Unique Paths",
+      "url": "https://leetcode.com/problems/unique-paths/",
+      "week": 6,
+      "day": 6,
+      "focus": "Backtracking, 1D DP, 2D DP",
+      "companyFocus": [],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "lru-cache",
+      "title": "LRU Cache",
+      "url": "https://leetcode.com/problems/lru-cache/",
+      "week": 7,
+      "day": 1,
+      "focus": "Mixed Interview Set + High-Yield Design/Data-Structure Problems",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "merge-k-sorted-lists",
+      "title": "Merge k Sorted Lists",
+      "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+      "week": 7,
+      "day": 1,
+      "focus": "Mixed Interview Set + High-Yield Design/Data-Structure Problems",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "add-two-numbers",
+      "title": "Add Two Numbers",
+      "url": "https://leetcode.com/problems/add-two-numbers/",
+      "week": 7,
+      "day": 2,
+      "focus": "Mixed Interview Set + High-Yield Design/Data-Structure Problems",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "RELEARN",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "copy-list-with-random-pointer",
+      "title": "Copy List with Random Pointer",
+      "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+      "week": 7,
+      "day": 2,
+      "focus": "Mixed Interview Set + High-Yield Design/Data-Structure Problems",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "trapping-rain-water",
+      "title": "Trapping Rain Water",
+      "url": "https://leetcode.com/problems/trapping-rain-water/",
+      "week": 7,
+      "day": 3,
+      "focus": "Mixed Interview Set + High-Yield Design/Data-Structure Problems",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "minimum-window-substring",
+      "title": "Minimum Window Substring",
+      "url": "https://leetcode.com/problems/minimum-window-substring/",
+      "week": 7,
+      "day": 3,
+      "focus": "Mixed Interview Set + High-Yield Design/Data-Structure Problems",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "decode-ways",
+      "title": "Decode Ways",
+      "url": "https://leetcode.com/problems/decode-ways/",
+      "week": 7,
+      "day": 4,
+      "focus": "Mixed Interview Set + High-Yield Design/Data-Structure Problems",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "word-break",
+      "title": "Word Break",
+      "url": "https://leetcode.com/problems/word-break/",
+      "week": 7,
+      "day": 4,
+      "focus": "Mixed Interview Set + High-Yield Design/Data-Structure Problems",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "longest-common-subsequence",
+      "title": "Longest Common Subsequence",
+      "url": "https://leetcode.com/problems/longest-common-subsequence/",
+      "week": 7,
+      "day": 5,
+      "focus": "Mixed Interview Set + High-Yield Design/Data-Structure Problems",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "accounts-merge",
+      "title": "Accounts Merge",
+      "url": "https://leetcode.com/problems/accounts-merge/",
+      "week": 7,
+      "day": 5,
+      "focus": "Mixed Interview Set + High-Yield Design/Data-Structure Problems",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "reconstruct-itinerary",
+      "title": "Reconstruct Itinerary",
+      "url": "https://leetcode.com/problems/reconstruct-itinerary/",
+      "week": 7,
+      "day": 6,
+      "focus": "Mixed Interview Set + High-Yield Design/Data-Structure Problems",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "time-based-key-value-store",
+      "title": "Time Based Key-Value Store",
+      "url": "https://leetcode.com/problems/time-based-key-value-store/",
+      "week": 7,
+      "day": 6,
+      "focus": "Mixed Interview Set + High-Yield Design/Data-Structure Problems",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "MUST_KNOW",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "binary-tree-maximum-path-sum",
+      "title": "Binary Tree Maximum Path Sum",
+      "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+      "week": 8,
+      "day": 1,
+      "focus": "Timed Mixed Problems, Selected Hards, Weak-Topic Repair",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "HIGH",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "serialize-and-deserialize-binary-tree",
+      "title": "Serialize and Deserialize Binary Tree",
+      "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+      "week": 8,
+      "day": 1,
+      "focus": "Timed Mixed Problems, Selected Hards, Weak-Topic Repair",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "HIGH",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "find-median-from-data-stream",
+      "title": "Find Median from Data Stream",
+      "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+      "week": 8,
+      "day": 2,
+      "focus": "Timed Mixed Problems, Selected Hards, Weak-Topic Repair",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "HIGH",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "largest-rectangle-in-histogram",
+      "title": "Largest Rectangle in Histogram",
+      "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+      "week": 8,
+      "day": 2,
+      "focus": "Timed Mixed Problems, Selected Hards, Weak-Topic Repair",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "RELEARN",
+      "priority": "HIGH",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "sliding-window-maximum",
+      "title": "Sliding Window Maximum",
+      "url": "https://leetcode.com/problems/sliding-window-maximum/",
+      "week": 8,
+      "day": 3,
+      "focus": "Timed Mixed Problems, Selected Hards, Weak-Topic Repair",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "HIGH",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "edit-distance",
+      "title": "Edit Distance",
+      "url": "https://leetcode.com/problems/edit-distance/",
+      "week": 8,
+      "day": 3,
+      "focus": "Timed Mixed Problems, Selected Hards, Weak-Topic Repair",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "HIGH",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "word-ladder",
+      "title": "Word Ladder",
+      "url": "https://leetcode.com/problems/word-ladder/",
+      "week": 8,
+      "day": 4,
+      "focus": "Timed Mixed Problems, Selected Hards, Weak-Topic Repair",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "HIGH",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "n-queens",
+      "title": "N-Queens",
+      "url": "https://leetcode.com/problems/n-queens/",
+      "week": 8,
+      "day": 4,
+      "focus": "Timed Mixed Problems, Selected Hards, Weak-Topic Repair",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "HIGH",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "cheapest-flights-within-k-stops",
+      "title": "Cheapest Flights Within K Stops",
+      "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+      "week": 8,
+      "day": 5,
+      "focus": "Timed Mixed Problems, Selected Hards, Weak-Topic Repair",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "HIGH",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "partition-equal-subset-sum",
+      "title": "Partition Equal Subset Sum",
+      "url": "https://leetcode.com/problems/partition-equal-subset-sum/",
+      "week": 8,
+      "day": 5,
+      "focus": "Timed Mixed Problems, Selected Hards, Weak-Topic Repair",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "HIGH",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "set-matrix-zeroes",
+      "title": "Set Matrix Zeroes",
+      "url": "https://leetcode.com/problems/set-matrix-zeroes/",
+      "week": 8,
+      "day": 6,
+      "focus": "Timed Mixed Problems, Selected Hards, Weak-Topic Repair",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "HIGH",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    },
+    {
+      "slug": "spiral-matrix",
+      "title": "Spiral Matrix",
+      "url": "https://leetcode.com/problems/spiral-matrix/",
+      "week": 8,
+      "day": 6,
+      "focus": "Timed Mixed Problems, Selected Hards, Weak-Topic Repair",
+      "companyFocus": [
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "baselineMode": "NEW",
+      "priority": "HIGH",
+      "curriculum": [
+        "NeetCode 150",
+        "Blind 75",
+        "LeetCode Top Interview 150"
+      ],
+      "reviewCadence": [
+        "D+1",
+        "D+3",
+        "D+7",
+        "D+14",
+        "D+30"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "two-sum": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "valid-anagram": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "group-anagrams": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "product-of-array-except-self": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "valid-palindrome": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "two-sum-ii-input-array-is-sorted": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "3sum": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "container-with-most-water": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "best-time-to-buy-and-sell-stock": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "longest-substring-without-repeating-characters": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "longest-repeating-character-replacement": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "subarray-sum-equals-k": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "binary-search": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "search-a-2d-matrix": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "koko-eating-bananas": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "find-minimum-in-rotated-sorted-array": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "search-in-rotated-sorted-array": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "reverse-linked-list": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "merge-two-sorted-lists": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "linked-list-cycle": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "reorder-list": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "valid-parentheses": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "min-stack": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "daily-temperatures": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "invert-binary-tree": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "maximum-depth-of-binary-tree": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "diameter-of-binary-tree": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "balanced-binary-tree": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "same-tree": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "subtree-of-another-tree": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "lowest-common-ancestor-of-a-binary-search-tree": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "binary-tree-level-order-traversal": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "binary-tree-right-side-view": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "validate-binary-search-tree": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "kth-smallest-element-in-a-bst": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "construct-binary-tree-from-preorder-and-inorder-traversal": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "kth-largest-element-in-an-array": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "k-closest-points-to-origin": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "task-scheduler": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "merge-intervals": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "insert-interval": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "non-overlapping-intervals": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "minimum-number-of-arrows-to-burst-balloons": [
+    "Amazon",
+    "Google"
+  ],
+  "jump-game": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "jump-game-ii": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "gas-station": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "partition-labels": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "implement-trie-prefix-tree": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "number-of-islands": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "clone-graph": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "max-area-of-island": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "pacific-atlantic-water-flow": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "surrounded-regions": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "rotting-oranges": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "course-schedule": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "course-schedule-ii": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "redundant-connection": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "number-of-provinces": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "network-delay-time": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "min-cost-to-connect-all-points": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "subsets": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "combination-sum": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "permutations": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "word-search": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "palindrome-partitioning": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "letter-combinations-of-a-phone-number": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "climbing-stairs": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "house-robber": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "house-robber-ii": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "coin-change": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "longest-increasing-subsequence": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "unique-paths": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "lru-cache": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "merge-k-sorted-lists": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "add-two-numbers": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "copy-list-with-random-pointer": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "trapping-rain-water": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "minimum-window-substring": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "decode-ways": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "word-break": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "longest-common-subsequence": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "accounts-merge": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "reconstruct-itinerary": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "time-based-key-value-store": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "binary-tree-maximum-path-sum": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "serialize-and-deserialize-binary-tree": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "find-median-from-data-stream": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "largest-rectangle-in-histogram": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "sliding-window-maximum": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "edit-distance": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "word-ladder": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "n-queens": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "cheapest-flights-within-k-stops": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "partition-equal-subset-sum": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "set-matrix-zeroes": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "spiral-matrix": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ]
+}
