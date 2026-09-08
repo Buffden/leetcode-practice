@@ -67,4 +67,4 @@ This repository now includes an interview-prep layer on top of the automatic Lee
 - **Spaced repetition:** D+1 → D+3 → D+7 → D+14 → D+30.
 - **Curriculum:** merged NeetCode 150 + Blind 75 + LeetCode Top Interview 150, followed by Amazon/AWS, Google, Meta, and Apple targeting.
 
-The automation snapshots manual problem notes before each LeetCode sync, restores them afterward, and then adds roadmap metadata. This prevents future accepted re-submissions from erasing manually maintained `Approach` / `Complexity` notes.
+`leetcode-sync` owns README generation and preserves the user-owned notes section across re-submissions. After each sync, this repository only refreshes roadmap-specific metadata and the repository-status dashboard.
