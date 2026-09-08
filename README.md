@@ -55,3 +55,16 @@ Each problem's `README.md` contains:
 - Topics/tags
 - Runtime and memory percentile stats
 - `## Approach` and `## Complexity` sections (filled in manually)
+
+## Interview Roadmap
+
+This repository now includes an interview-prep layer on top of the automatic LeetCode sync:
+
+- **[8-week roadmap](./roadmap/README.md)** — 96 curated problems across the core interview patterns.
+- **[Mastery tracker](./roadmap/PROGRESS.md)** — manual 0–5 mastery, review dates, and error codes.
+- **[Repository status](./roadmap/REPO_STATUS.md)** — auto-generated solution-presence dashboard; repo presence is deliberately kept separate from mastery.
+- **[Machine-readable plan](./roadmap/plan.json)** — used by the sync workflow to enrich matching problem READMEs.
+- **Spaced repetition:** D+1 → D+3 → D+7 → D+14 → D+30.
+- **Curriculum:** merged NeetCode 150 + Blind 75 + LeetCode Top Interview 150, followed by Amazon/AWS, Google, Meta, and Apple targeting.
+
+The automation snapshots manual problem notes before each LeetCode sync, restores them afterward, and then adds roadmap metadata. This prevents future accepted re-submissions from erasing manually maintained `Approach` / `Complexity` notes.
