@@ -37,7 +37,7 @@ jobs:
           git reset --hard origin/main
 
       - name: Refresh roadmap metadata
-        run: node scripts/roadmap-sync.js
+        run: node scripts/refresh-roadmap.js
 
       - name: Commit roadmap-derived updates
         run: |
