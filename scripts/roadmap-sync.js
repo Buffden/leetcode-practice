@@ -160,11 +160,12 @@ function enrich(snapshotPath) {
     const slug = slugFromReadme(file);
     existingSlugs.add(slug);
     const entry = bySlug.get(slug);
-    if (!entry) continue;
 
     const original = fs.readFileSync(file, "utf8");
     let next = restoreManualSection(original, notes[slug]);
-    next = injectBlock(next, roadmapBlock(entry, companyMap[slug] || []));
+    if (entry) {
+      next = injectBlock(next, roadmapBlock(entry, companyMap[slug] || []));
+    }
 
     if (next !== original) {
       fs.writeFileSync(file, next);
