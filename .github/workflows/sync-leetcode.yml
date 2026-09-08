@@ -21,9 +21,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Snapshot manual problem notes
-        run: node scripts/roadmap-sync.js snapshot --output "$RUNNER_TEMP/leetcode-manual-notes.json"
-
       - name: Sync LeetCode submissions
         uses: Buffden/leetcode-sync@master
         with:
@@ -39,8 +36,8 @@ jobs:
           git fetch origin main
           git reset --hard origin/main
 
-      - name: Restore notes and enrich roadmap metadata
-        run: node scripts/roadmap-sync.js enrich --snapshot "$RUNNER_TEMP/leetcode-manual-notes.json"
+      - name: Refresh roadmap metadata
+        run: node scripts/roadmap-sync.js
 
       - name: Commit roadmap-derived updates
         run: |
