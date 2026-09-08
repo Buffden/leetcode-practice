@@ -92,11 +92,13 @@ Problems with `PR`, `IMP`, `BUG`, or `RET` should receive more full re-solves.
 
 The LeetCode sync remains the ingestion layer. The roadmap layer adds personal interview-prep metadata without turning the reusable sync action into a user-specific planning tool.
 
-After the LeetCode sync runs, the roadmap enrichment step:
+README retention is now owned by `Buffden/leetcode-sync`: its generated metadata and user-owned notes are separated so re-submissions preserve manual notes.
 
-1. preserves manual `## Approach` / `## Complexity` / interview notes,
-2. refreshes the repository from the newly synced commit,
-3. injects roadmap metadata into problems that belong to the 8-week plan,
+After the LeetCode sync runs, this repository's roadmap enrichment step:
+
+1. refreshes the repository from the newly synced commit,
+2. injects roadmap metadata into problems that belong to the 8-week plan,
+3. keeps roadmap metadata outside the syncer's user-owned notes section,
 4. regenerates [REPO_STATUS.md](./REPO_STATUS.md),
 5. commits only the roadmap-derived changes.
 
