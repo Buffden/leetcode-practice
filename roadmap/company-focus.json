@@ -11,6 +11,18 @@
     "Google",
     "Meta"
   ],
+  "contains-duplicate": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "top-k-frequent-elements": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
   "group-anagrams": [
     "Amazon",
     "Apple",
@@ -23,6 +35,17 @@
     "Google",
     "Meta"
   ],
+  "valid-sudoku": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "longest-consecutive-sequence": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "valid-palindrome": [
     "Amazon",
     "Apple",
@@ -30,6 +53,18 @@
     "Meta"
   ],
   "two-sum-ii-input-array-is-sorted": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "majority-element": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "sort-colors": [
     "Amazon",
     "Apple",
     "Google",
@@ -47,6 +82,18 @@
     "Google",
     "Meta"
   ],
+  "4sum": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "3sum-closest": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
   "best-time-to-buy-and-sell-stock": [
     "Amazon",
     "Apple",
@@ -56,6 +103,17 @@
   "longest-substring-without-repeating-characters": [
     "Amazon",
     "Apple",
+    "Google",
+    "Meta"
+  ],
+  "move-zeroes": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "minimum-size-subarray-sum": [
+    "Amazon",
     "Google",
     "Meta"
   ],
@@ -71,6 +129,16 @@
     "Google",
     "Meta"
   ],
+  "permutation-in-string": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "find-all-anagrams-in-a-string": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "binary-search": [
     "Amazon",
     "Google",
@@ -82,6 +150,16 @@
     "Google",
     "Meta"
   ],
+  "find-first-and-last-position-of-element-in-sorted-array": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "capacity-to-ship-packages-within-d-days": [
+    "Amazon",
+    "Google"
+  ],
   "koko-eating-bananas": [
     "Amazon",
     "Apple",
@@ -89,6 +167,17 @@
     "Meta"
   ],
   "find-minimum-in-rotated-sorted-array": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "find-peak-element": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "reverse-nodes-in-k-group": [
     "Amazon",
     "Apple",
     "Google",
@@ -106,6 +195,17 @@
     "Google",
     "Meta"
   ],
+  "remove-nth-node-from-end-of-list": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "linked-list-cycle-ii": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "merge-two-sorted-lists": [
     "Amazon",
     "Apple",
@@ -113,6 +213,17 @@
     "Meta"
   ],
   "linked-list-cycle": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "palindrome-linked-list": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "middle-of-the-linked-list": [
     "Amazon",
     "Google",
     "Meta"
@@ -129,6 +240,15 @@
     "Google",
     "Meta"
   ],
+  "swap-nodes-in-pairs": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "next-greater-element-i": [
+    "Amazon",
+    "Google"
+  ],
   "min-stack": [
     "Amazon",
     "Apple",
@@ -140,12 +260,33 @@
     "Google",
     "Meta"
   ],
+  "online-stock-span": [
+    "Amazon",
+    "Google"
+  ],
+  "evaluate-reverse-polish-notation": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "invert-binary-tree": [
     "Amazon",
     "Google",
     "Meta"
   ],
   "maximum-depth-of-binary-tree": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "symmetric-tree": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "binary-tree-inorder-traversal": [
     "Amazon",
     "Apple",
     "Google",
@@ -163,6 +304,16 @@
     "Google",
     "Meta"
   ],
+  "binary-tree-preorder-traversal": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "binary-tree-postorder-traversal": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "same-tree": [
     "Amazon",
     "Apple",
@@ -171,6 +322,18 @@
   ],
   "subtree-of-another-tree": [
     "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "binary-tree-zigzag-level-order-traversal": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "path-sum": [
+    "Amazon",
+    "Apple",
     "Google",
     "Meta"
   ],
@@ -186,6 +349,17 @@
     "Google",
     "Meta"
   ],
+  "lowest-common-ancestor-of-a-binary-tree": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "flatten-binary-tree-to-linked-list": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "binary-tree-right-side-view": [
     "Amazon",
     "Apple",
@@ -198,6 +372,15 @@
     "Google",
     "Meta"
   ],
+  "convert-sorted-array-to-binary-search-tree": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "search-in-a-binary-search-tree": [
+    "Amazon",
+    "Google"
+  ],
   "kth-smallest-element-in-a-bst": [
     "Amazon",
     "Google",
@@ -205,6 +388,17 @@
   ],
   "construct-binary-tree-from-preorder-and-inorder-traversal": [
     "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "count-good-nodes-in-binary-tree": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "path-sum-ii": [
+    "Amazon",
+    "Apple",
     "Google",
     "Meta"
   ],
@@ -220,6 +414,15 @@
     "Google",
     "Meta"
   ],
+  "kth-largest-element-in-a-stream": [
+    "Amazon",
+    "Google"
+  ],
+  "last-stone-weight": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "task-scheduler": [
     "Amazon",
     "Apple",
@@ -229,6 +432,16 @@
   "merge-intervals": [
     "Amazon",
     "Apple",
+    "Google",
+    "Meta"
+  ],
+  "design-twitter": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "interval-list-intersections": [
+    "Amazon",
     "Google",
     "Meta"
   ],
@@ -244,6 +457,14 @@
     "Google",
     "Meta"
   ],
+  "my-calendar-i": [
+    "Amazon",
+    "Google"
+  ],
+  "car-pooling": [
+    "Amazon",
+    "Google"
+  ],
   "minimum-number-of-arrows-to-burst-balloons": [
     "Amazon",
     "Google"
@@ -254,6 +475,15 @@
     "Google",
     "Meta"
   ],
+  "corporate-flight-bookings": [
+    "Amazon",
+    "Google"
+  ],
+  "candy": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "jump-game-ii": [
     "Amazon",
     "Apple",
@@ -261,6 +491,17 @@
     "Meta"
   ],
   "gas-station": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "design-add-and-search-words-data-structure": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "word-search-ii": [
     "Amazon",
     "Apple",
     "Google",
@@ -277,6 +518,14 @@
     "Google",
     "Meta"
   ],
+  "remove-k-digits": [
+    "Amazon",
+    "Google"
+  ],
+  "valid-parenthesis-string": [
+    "Amazon",
+    "Google"
+  ],
   "number-of-islands": [
     "Amazon",
     "Apple",
@@ -284,6 +533,17 @@
     "Meta"
   ],
   "clone-graph": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "is-graph-bipartite": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "01-matrix": [
     "Amazon",
     "Apple",
     "Google",
@@ -300,6 +560,17 @@
     "Google",
     "Meta"
   ],
+  "flood-fill": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "evaluate-division": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "surrounded-regions": [
     "Amazon",
     "Google",
@@ -308,6 +579,15 @@
   "rotting-oranges": [
     "Amazon",
     "Apple",
+    "Google",
+    "Meta"
+  ],
+  "find-the-town-judge": [
+    "Amazon",
+    "Google"
+  ],
+  "shortest-path-in-binary-matrix": [
+    "Amazon",
     "Google",
     "Meta"
   ],
@@ -323,6 +603,15 @@
     "Google",
     "Meta"
   ],
+  "longest-increasing-path-in-a-matrix": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "swim-in-rising-water": [
+    "Amazon",
+    "Google"
+  ],
   "redundant-connection": [
     "Amazon",
     "Google",
@@ -332,6 +621,15 @@
     "Amazon",
     "Google",
     "Meta"
+  ],
+  "keys-and-rooms": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "path-with-minimum-effort": [
+    "Amazon",
+    "Google"
   ],
   "network-delay-time": [
     "Amazon",
@@ -343,12 +641,32 @@
     "Google",
     "Meta"
   ],
+  "minimum-genetic-mutation": [
+    "Amazon",
+    "Google"
+  ],
+  "possible-bipartition": [
+    "Amazon",
+    "Google"
+  ],
   "subsets": [
     "Amazon",
     "Google",
     "Meta"
   ],
   "combination-sum": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "subsets-ii": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "combination-sum-ii": [
     "Amazon",
     "Apple",
     "Google",
@@ -366,6 +684,17 @@
     "Google",
     "Meta"
   ],
+  "permutations-ii": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "generate-parentheses": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
   "palindrome-partitioning": [
     "Amazon",
     "Google",
@@ -377,6 +706,15 @@
     "Google",
     "Meta"
   ],
+  "combinations": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "min-cost-climbing-stairs": [
+    "Amazon",
+    "Google"
+  ],
   "climbing-stairs": [
     "Amazon",
     "Apple",
@@ -386,6 +724,17 @@
   "house-robber": [
     "Amazon",
     "Apple",
+    "Google",
+    "Meta"
+  ],
+  "maximum-subarray": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "unique-paths-ii": [
+    "Amazon",
     "Google",
     "Meta"
   ],
@@ -401,6 +750,16 @@
     "Google",
     "Meta"
   ],
+  "minimum-path-sum": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "target-sum": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "longest-increasing-subsequence": [
     "Amazon",
     "Google",
@@ -410,6 +769,14 @@
     "Amazon",
     "Google",
     "Meta"
+  ],
+  "combination-sum-iv": [
+    "Amazon",
+    "Google"
+  ],
+  "perfect-squares": [
+    "Amazon",
+    "Google"
   ],
   "lru-cache": [
     "Amazon",
@@ -423,6 +790,17 @@
     "Google",
     "Meta"
   ],
+  "lfu-cache": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "all-oone-data-structure": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "add-two-numbers": [
     "Amazon",
     "Apple",
@@ -430,6 +808,18 @@
     "Meta"
   ],
   "copy-list-with-random-pointer": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "basic-calculator": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "basic-calculator-ii": [
     "Amazon",
     "Apple",
     "Google",
@@ -447,6 +837,18 @@
     "Google",
     "Meta"
   ],
+  "integer-to-english-words": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "multiply-strings": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
   "decode-ways": [
     "Amazon",
     "Apple",
@@ -459,6 +861,16 @@
     "Google",
     "Meta"
   ],
+  "text-justification": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "random-pick-with-weight": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "longest-common-subsequence": [
     "Amazon",
     "Apple",
@@ -466,6 +878,17 @@
     "Meta"
   ],
   "accounts-merge": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "insert-delete-getrandom-o1": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "shuffle-an-array": [
     "Amazon",
     "Google",
     "Meta"
@@ -482,6 +905,16 @@
     "Google",
     "Meta"
   ],
+  "word-ladder-ii": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "top-k-frequent-words": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "binary-tree-maximum-path-sum": [
     "Amazon",
     "Apple",
@@ -489,6 +922,18 @@
     "Meta"
   ],
   "serialize-and-deserialize-binary-tree": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "median-of-two-sorted-arrays": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "regular-expression-matching": [
     "Amazon",
     "Apple",
     "Google",
@@ -506,6 +951,16 @@
     "Google",
     "Meta"
   ],
+  "wildcard-matching": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "trapping-rain-water-ii": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "sliding-window-maximum": [
     "Amazon",
     "Apple",
@@ -518,6 +973,16 @@
     "Google",
     "Meta"
   ],
+  "max-points-on-a-line": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "longest-valid-parentheses": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
   "word-ladder": [
     "Amazon",
     "Apple",
@@ -525,6 +990,17 @@
     "Meta"
   ],
   "n-queens": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "first-missing-positive": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "sudoku-solver": [
     "Amazon",
     "Google",
     "Meta"
@@ -540,6 +1016,15 @@
     "Google",
     "Meta"
   ],
+  "maximal-rectangle": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "course-schedule-iii": [
+    "Amazon",
+    "Google"
+  ],
   "set-matrix-zeroes": [
     "Amazon",
     "Apple",
@@ -551,5 +1036,15 @@
     "Apple",
     "Google",
     "Meta"
+  ],
+  "best-time-to-buy-and-sell-stock-iii": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Meta"
+  ],
+  "russian-doll-envelopes": [
+    "Amazon",
+    "Google"
   ]
 }

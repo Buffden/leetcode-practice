@@ -6,8 +6,8 @@ This repository is the execution system for the 8-week interview sprint. The goa
 
 - **Timeline:** 8 weeks
 - **Language:** Java
-- **Sprint load:** ~3 hours/day
-- **Target level:** SDE I / early-career SWE interviews
+- **Sprint load:** ~5 hours/day, 4 new problems/day, 6 study days/week
+- **Target level:** FAANG / high-paying product-company interviews
 - **Priority companies:** Amazon/AWS, Google, Meta, Apple; transferable to other high-paying product companies
 - **Curriculum pool:** NeetCode 150 + Blind 75 + LeetCode Top Interview 150 + company-targeted reinforcement
 - **Important:** these lists are merged into one curriculum. Do **not** solve all three lists independently.
@@ -23,15 +23,17 @@ The roadmap therefore uses two baseline modes:
 
 Mastery is tracked separately in [PROGRESS.md](./PROGRESS.md).
 
-## 3-hour daily block
+## 5-hour daily block
 
 | Block | Time | Purpose |
 |---|---:|---|
-| Retrieval warm-up | 25 min | Recall an old problem without notes |
+| Retrieval warm-up | 20 min | Recall an old problem without notes |
 | Problem 1 | 55 min | Main Medium / pattern problem |
 | Problem 2 | 50 min | Second problem or pattern variation |
-| Spaced re-solve | 30 min | D+1 / D+3 / D+7 / D+14 / D+30 review |
-| Postmortem + notes | 20 min | Error codes, invariant, complexity, edge cases |
+| Problem 3 | 50 min | Third problem or pattern variation |
+| Problem 4 | 45 min | Fourth problem, harder variant or company-tagged |
+| Spaced re-solve | 40 min | D+1 / D+3 / D+7 / D+14 / D+30 review |
+| Postmortem + notes | 40 min | Error codes, invariant, complexity, edge cases |
 
 For each fresh problem:
 
@@ -63,14 +65,14 @@ For each fresh problem:
 
 | Week | Focus | Problems | Special emphasis |
 |---:|---|---:|---|
-| 1 | Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum | 12 | Pattern mastery |
-| 2 | Binary Search, Linked Lists, Stack, Monotonic Stack | 12 | Pattern mastery |
-| 3 | Trees, BST, DFS, BFS, Recursive Invariants | 12 | Pattern mastery |
-| 4 | Heap, Intervals, Greedy, Trie | 12 | Pattern mastery |
-| 5 | Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST | 12 | Pattern mastery |
-| 6 | Backtracking, 1D DP, 2D DP | 12 | Pattern mastery |
-| 7 | Mixed Interview Set + High-Yield Design/Data-Structure Problems | 12 | Amazon, Google, Meta, Apple |
-| 8 | Timed Mixed Problems, Selected Hards, Weak-Topic Repair | 12 | Amazon, Google, Meta, Apple |
+| 1 | Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum | 24 | Pattern mastery |
+| 2 | Binary Search, Linked Lists, Stack, Monotonic Stack | 24 | Pattern mastery |
+| 3 | Trees, BST, DFS, BFS, Recursive Invariants | 24 | Pattern mastery |
+| 4 | Heap, Intervals, Greedy, Trie | 24 | Pattern mastery |
+| 5 | Graphs, BFS/DFS, Union Find, Topological Sort, Shortest Path, MST | 24 | Pattern mastery |
+| 6 | Backtracking, 1D DP, 2D DP | 24 | Pattern mastery |
+| 7 | Mixed Interview Set + High-Yield Design/Data-Structure Problems | 24 | Amazon, Google, Meta, Apple |
+| 8 | Timed Mixed Problems, Selected Hards, Weak-Topic Repair | 24 | Amazon, Google, Meta, Apple |
 
 **Sunday rule:** no mandatory new problems. Use Sunday for spaced repetition, error-log review, weak-topic repair, and one 45-minute timed mock.
 
@@ -114,7 +116,7 @@ Treat company tags as prioritization evidence, not proof that a question will be
 
 ## Files
 
-- [plan.json](./plan.json) — machine-readable 96-problem curriculum.
+- [plan.json](./plan.json) — machine-readable 192-problem curriculum.
 - [PROGRESS.md](./PROGRESS.md) — human mastery/review tracker; automation does not overwrite it.
 - [REPO_STATUS.md](./REPO_STATUS.md) — auto-generated "solution exists in repo" status.
 - [company-focus.json](./company-focus.json) — Amazon/Google/Meta/Apple matches for roadmap problems.

@@ -60,7 +60,7 @@ Each problem's `README.md` contains:
 
 This repository now includes an interview-prep layer on top of the automatic LeetCode sync:
 
-- **[8-week roadmap](./roadmap/README.md)** — 96 curated problems across the core interview patterns.
+- **[8-week roadmap](./roadmap/README.md)** — 192 curated problems across the core interview patterns.
 - **[Mastery tracker](./roadmap/PROGRESS.md)** — manual 0–5 mastery, review dates, and error codes.
 - **[Repository status](./roadmap/REPO_STATUS.md)** — auto-generated solution-presence dashboard; repo presence is deliberately kept separate from mastery.
 - **[Machine-readable plan](./roadmap/plan.json)** — used by the sync workflow to enrich matching problem READMEs.
