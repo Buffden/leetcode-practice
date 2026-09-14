@@ -93,25 +93,10 @@ The second train of thought is, without changing the array, can we use additiona
 - [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) (Easy)
 
 ## Stats
-- Runtime: 3 ms (beats 59.20%)
-- Memory: 46.8 MB (beats 84.84%)
+- Runtime: 2 ms (beats 99.39%)
+- Memory: 47.1 MB (beats 59.28%)
 
 <!-- LEETCODE_SYNC:END -->
-
-<!-- ROADMAP:START -->
-## Interview Prep
-
-- **Sprint:** Week 1, Day 1
-- **Baseline:** RELEARN — historical accepted solution exists; perform a cold re-solve
-- **Priority:** MUST_KNOW
-- **Focus:** Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum
-- **Curriculum pool:** merged NeetCode 150 + Blind 75 + LeetCode Top Interview 150 (not three separate completion lists)
-- **Week company focus:** Pattern mastery first; company targeting begins in Weeks 7–8
-- **Target-company matches in snapshot:** Amazon, Apple, Google, Meta
-- **Review cadence:** D+1 → D+3 → D+7 → D+14 → D+30
-- **Postmortem codes:** PR / BF / OP / IMP / BUG / EDGE / TC / RET / COM / TIME
-
-<!-- ROADMAP:END -->
 
 <!-- USER_NOTES:START -->
 

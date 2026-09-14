@@ -1,22 +1,15 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        HashMap<Integer, Integer> myFreq = new HashMap<Integer, Integer>(); // map number to its index
-        HashSet<Integer> mySet = new HashSet<Integer>(); // for not choosing the same number that we added in map twice
-        int[] ansArray = new int[2];
+        // hashmap + complement lookup problem
+        Map<Integer, Integer> map = new HashMap<>();
 
-        for (int index = 0; index < nums.length; index++) {
-            if (mySet.contains(nums[index]) == false) {
-                mySet.add(nums[index]);
-                myFreq.put(nums[index], index);
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) {
+                return new int[]{i, map.get(complement)};
             }
-            int difference = target - nums[index]; // we will find this difference in the map that holds the number's index too
-            if (mySet.contains(difference) && myFreq.get(difference) != index) {
-                ansArray[0] = index;
-                ansArray[1] = myFreq.get(difference);
-                return ansArray;
-            }
+            map.put(nums[i], i);
         }
-        return ansArray;
+        return new int[]{};
     }
 }
-
