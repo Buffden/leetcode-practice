@@ -4,10 +4,10 @@
 
 | Day | Problem | Baseline | Last review | Next review | Error codes |
 |---:|---|---|---|---|---|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | RELEARN | 2026-09-14 | 2026-09-15 |  |
-| 1 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | RELEARN | 2026-09-14 | 2026-09-15 |  |
-| 1 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | RELEARN |  |  |  |
-| 1 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | NEW |  |  |  |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | RELEARN | 2026-09-15 | 2026-09-17 |  |
+| 1 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | RELEARN | 2026-09-15 | 2026-09-17 |  |
+| 1 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | RELEARN | 2026-09-15 | 2026-09-16 |  |
+| 1 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | NEW | 2026-09-15 | 2026-09-16 |  |
 | 2 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | RELEARN |  |  |  |
 | 2 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | NEW |  |  |  |
 | 2 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | NEW |  |  |  |
