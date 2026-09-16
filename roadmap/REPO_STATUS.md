@@ -3,19 +3,19 @@
 > Auto-generated. This records whether a solution exists in the repository. **It is not a mastery score.** Use [PROGRESS.md](./PROGRESS.md) for interview readiness.
 
 Generated from the current working tree. Roadmap size: **192 problems**.
-Current roadmap repo coverage: **64/192**. Again, coverage is not mastery.
+Current roadmap repo coverage: **65/192**. Again, coverage is not mastery.
 
 
 ## Week 1 — Arrays, Hashing, Two Pointers, Sliding Window, Prefix Sum
 
-Repo coverage: **18/24**
+Repo coverage: **19/24**
 
 | Day | Problem | Baseline | Repo solution | Target-company snapshot |
 |---:|---|---|---|---|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | RELEARN | ✅ exists | Amazon, Apple, Google, Meta |
 | 1 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | RELEARN | ✅ exists | Amazon, Apple, Google, Meta |
 | 1 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | RELEARN | ✅ exists | Amazon, Apple, Google, Meta |
-| 1 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | NEW | ⬜ not yet synced | Amazon, Apple, Google, Meta |
+| 1 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | NEW | ✅ exists | Amazon, Apple, Google, Meta |
 | 2 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | RELEARN | ✅ exists | Amazon, Apple, Google, Meta |
 | 2 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | NEW | ⬜ not yet synced | Amazon, Apple, Google, Meta |
 | 2 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | NEW | ⬜ not yet synced | Amazon, Apple, Google, Meta |
