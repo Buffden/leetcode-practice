@@ -1,26 +1,24 @@
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
+        // group frequencies
+        // HashMap
+        // frequency counting
 
-        /*“I can generate a canonical key for each word.
-        The simplest approach is sorting characters.
-        If we want to optimize further, we can use a fixed-size 
-        frequency signature to get linear time.”
-        */
-        HashMap<String, List<String>> groups = new HashMap<String, List<String>>();
-
-        for (String s: strs) {
+        // like a bucket of strings
+        Map<String, List<String>> map = new HashMap<>(); 
+        
+        // freq for each strings
+        for (String word: strs) {
             int[] count = new int[26];
-
-            for (char c: s.toCharArray()) {
+            for (char c: word.toCharArray()) {
                 count[c - 'a']++;
             }
+            // creating a unique cannonical key out of the freq array
+            String cannonicalKey = Arrays.toString(count);
 
-            StringBuilder key = new StringBuilder();
-            for (int i = 0; i < 26; i++) {
-                key.append('#').append(count[i]);
-            }
-            groups.computeIfAbsent(key.toString(), k -> new ArrayList<>()).add(s);
+            // put the word in the map with key as the unique cannonical freq array key
+            map.computeIfAbsent(cannonicalKey, k -> new ArrayList<>()).add(word);
         }
-        return new ArrayList<>(groups.values());
+        return new ArrayList<>(map.values());
     }
 }
