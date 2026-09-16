@@ -6,9 +6,9 @@
 |---:|---|---|---|---|---|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | RELEARN | 2026-09-15 | 2026-09-17 |  |
 | 1 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | RELEARN | 2026-09-15 | 2026-09-17 |  |
-| 1 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | RELEARN | 2026-09-15 | 2026-09-16 |  |
-| 1 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | NEW | 2026-09-15 | 2026-09-16 |  |
-| 2 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | RELEARN |  |  |  |
+| 1 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | RELEARN | 2026-09-16 | 2026-09-18 |  |
+| 1 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | NEW | 2026-09-16 | 2026-09-18 |  |
+| 2 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | RELEARN | 2026-09-16 | 2026-09-17 |  |
 | 2 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | NEW |  |  |  |
 | 2 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | NEW |  |  |  |
 | 2 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | RELEARN |  |  |  |
